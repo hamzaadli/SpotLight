@@ -1,0 +1,56 @@
+﻿
+/* Set padding to keep content from hitting the edges */
+body {
+    font-family:Arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFF; 
+    background: White;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    color: Black;
+    font-weight: normal;
+}
+
+.playerturn {
+    margin-bottom: 20px;
+    Color: Black;
+}
+
+.results {
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    width: 150px;
+    margin: 0 auto;
+}
+
+    table td {
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+        table td:before {
+            font-size: 1.5em;
+            line-height: 1;
+        }
+
+        table td.cross:before {
+            content: "x";
+            color: blue;
+        }
+
+        table td.circle:before {
+            content: "o";
+            color: red;
+        }
